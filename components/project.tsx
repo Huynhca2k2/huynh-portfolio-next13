@@ -62,7 +62,7 @@ export default function Project({
                     >
                         Go to github <SlSocialGithub className='opacityy-60 group-hover:translate-y-1 transition sm:hidden'/>
                     </a>
-                    <a className='group bg-white px-3 py-2 flex items-center gap-2 rounded-lg outline-none text-base sm:text-sm md:text-base
+                    <a className='group bg-white px-3 py-2 mt-4 flex items-center gap-2 rounded-lg outline-none text-base sm:text-sm md:text-base
                         focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
                         href='/'
                     >
