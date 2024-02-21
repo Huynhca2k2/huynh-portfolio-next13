@@ -55,18 +55,16 @@ export default function Project({
                     ))}
                 </ul>
 
-                <div className='flex flex-col sm:flex-row items-center justify-between text-lg font-medium pt-4'>
-                    <a className='group bg-white px-3 py-2 flex items-center gap-2 rounded-lg outline-none text-base sm:text-sm md:text-base
-                        focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
+                <div className='flex flex-row flex-wrap items-center justify-between text-lg font-medium pt-4'>
+                    <a className='group bg-white px-3 py-2 flex items-center gap-2 rounded-lg outline-none text-base sm:text-sm md:text-base cursor-pointer borderBlack dark:bg-white/10'
                         href='/'
                     >
-                        Go to github <SlSocialGithub className='opacityy-60 group-hover:translate-y-1 transition sm:hidden'/>
+                        Github <SlSocialGithub className='opacityy-60 group-hover:translate-y-1 transition'/>
                     </a>
-                    <a className='group bg-white px-3 py-2 sm:mt-0 mt-4 flex items-center gap-2 rounded-lg outline-none text-base sm:text-sm md:text-base
-                        focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
+                    <a className='group bg-white px-3 py-2 flex items-center gap-2 rounded-lg outline-none text-base sm:text-sm md:text-base cursor-pointer borderBlack dark:bg-white/10'
                         href='/'
                     >
-                        Live review <SlGlobe className='opacityy-60 group-hover:translate-y-1 transition sm:hidden'/>
+                        Review <SlGlobe className='opacityy-60 group-hover:translate-y-1 transition'/>
                     </a>
                 </div>
             </div>

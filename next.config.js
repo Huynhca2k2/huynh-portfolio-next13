@@ -4,7 +4,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "avatars.githubusercontent.com"
+                hostname: "scontent.fsgn7-2.fna.fbcdn.net"
             }
         ]
     },
