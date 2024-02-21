@@ -22,15 +22,8 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
 
         <p className='mb-3'>
-            After graduating with a degree in{" "}
-            <span className='font-medium'>Accounting</span>, I decided to pursue my passion for programming. I enrolled in a coding
-            bootcamp and learned {" "}
-            <span className='font-medium'>full-stack web developer.</span>
-        </p>
-
-        <p>
-            I am also familiar with TypeSccript and Prisma. I am always looking to learn new technologies. I am currently looking for a {" "}
-            <span className='font-medium'>full-time position</span> as a software developer.
+          Desire to improve myself through working in the new professional and dynamic environment of the Company.
+          Proactive, enthusiastic, responsible, flexible in work, capable of teamwork, sociability, interaction and good team support.
         </p>
     </motion.section>
   )

@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -35,29 +34,22 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "The Open University Ho Chi Minh City",
+    location: "Go Vap District, Ho Chi Minh City",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 years of studying. My major: Computer Science.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Web Developer",
+    location: "Ho Chi Minh City",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Implement many single projects and many joint projects with the team, using HTML, CSS, JS, and ReactJS technologies.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 - Present",
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "Houston, TX",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2021 - present",
-  // },
+
 ] as const;
 
 export const projectsData = [
@@ -96,19 +88,19 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Java",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
+  "Tailwind CSS",
+  "Material UI",
+  "Alt Design",
+  "MongoDB",
+  "MySQL",
   "Python",
-  "Django",
+  "Java",
+  "Git",
+  "Docker",
   "Framer Motion",
 ] as const;
