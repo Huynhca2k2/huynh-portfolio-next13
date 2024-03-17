@@ -42,7 +42,7 @@ export const experiencesData = [
     date: "2020",
   },
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     location: "Ho Chi Minh City",
     description:
       "Implement many single projects and many joint projects with the team, using HTML, CSS, JS, and ReactJS technologies.",

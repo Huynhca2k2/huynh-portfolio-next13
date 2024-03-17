@@ -63,7 +63,7 @@ export default function Intro() {
             animate={{opacity: 1, y: 0}}
         >
             <span className='font-bold'>Hello, I'm Hoang Huynh. </span>
-            <span className='font-bold'>I am web developer</span>{" "}I enjoy building 
+            <span className='font-bold'>I am Frontend devloper Fullstack orientation</span>{" "}I enjoy building 
             <span className='italic'>sites & apps</span>. My focus is {" "}
             <span className='underline'>React (Next.js)</span>.
 
@@ -91,7 +91,7 @@ export default function Intro() {
 
             <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none 
                 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
-                href='/CaiHoangHuynh-webdev.pdf' download={true}
+                href='/CaiHoangHuynhFrontend.pdf' download={true}
             >Download CV <HiDownload className='opacityy-60 group-hover:translate-y-1 transition'/>
             </a>
 
