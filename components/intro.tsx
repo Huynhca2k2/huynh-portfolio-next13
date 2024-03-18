@@ -32,8 +32,8 @@ export default function Intro() {
                         duration: 0.2,
                     }}
                 >
-                    <Image src={"https://scontent.fsgn7-2.fna.fbcdn.net/v/t39.30808-1/428624022_1776945399396885_8786186100932658411_n.jpg?stp=dst-jpg_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=fxGSKqBt8PAAX-meqUg&_nc_ht=scontent.fsgn7-2.fna&oh=00_AfAP5jpn-kPd9HZ8jGNzzAN0dOTMhnoLtpUSdLROHT4HTA&oe=65DC179D"} 
-                        alt={"hoang huynh"}
+                    <Image src={"https://avatars.githubusercontent.com/u/136678098?v=4"} 
+                        alt={"Cai Hoang Huynh"}
                         width={192}
                         height={192}
                         quality={95}
