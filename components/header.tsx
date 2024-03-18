@@ -6,7 +6,7 @@ import {links} from '@/lib/data';
 import Link from 'next/link';
 import clsx from 'clsx';
 import { useActiveSectionContext } from '@/context/active-section-context';
-import { PiHouse, PiInfo, PiCode, PiAtom, PiChatCircleDots, PiChatText } from "react-icons/pi";
+import { PiHouse, PiInfo, PiCode, PiAtom, PiChatCircleDots, PiChartLineUp } from "react-icons/pi";
 
 export default function Header() {
 
@@ -48,8 +48,8 @@ export default function Header() {
                                     {link.name === "About" && <PiInfo className='text-xl sm:hidden'/>}
                                     {link.name === "Projects" && <PiCode className='text-xl sm:hidden'/>}
                                     {link.name === "Skills" && <PiAtom className='text-xl sm:hidden'/>}
-                                    {link.name === "Experience" && <PiChatCircleDots className='text-xl sm:hidden'/>}
-                                    {link.name === "Contact" && <PiChatText className='text-xl sm:hidden'/>}
+                                    {link.name === "Experience" && <PiChartLineUp className='text-xl sm:hidden'/>}
+                                    {link.name === "Contact" && <PiChatCircleDots className='text-xl sm:hidden'/>}
                                     <span className='hidden sm:block'>{link.name}</span>
                                     
                                     {
