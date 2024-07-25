@@ -82,10 +82,10 @@ export const projectsData = [
     reviewLink: 'https://tikitiki-ten.vercel.app/'
   },
   {
-    title: "Warehouse Management System (WMS)",
+    title: "Warehouse Management System",
     description:
-      "It is a website used to manage and oversee daily warehouse operations, from goods entering the warehouse to leaving it.",
-    tags: ["React", "Nodejs", "MongoDB", "Tailwind", "RadixUi", "Yup + React-hook-form"],
+      "Used to manage and oversee daily warehouse operations, from goods entering the warehouse to leaving it.",
+    tags: ["React", "Nodejs", "MongoDB", "Tailwind", "RadixUi"],
     imageUrl: project4,
     gitLink: 'https://github.com/Huynhca2k2/fe-dashboard',
     reviewLink: 'dashboard-demo123.vercel.app'
