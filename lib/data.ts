@@ -60,6 +60,8 @@ export const projectsData = [
       "Clone interface web chplay",
     tags: ["React", "Vite", "Tailwind",],
     imageUrl: project1,
+    gitLink: 'https://github.com/Huynhca2k2/tiki-mobile',
+    reviewLink: 'https://tiki-mobile.vercel.app/'
   },
   {
     title: "League of Legends script",
@@ -67,6 +69,8 @@ export const projectsData = [
       "Clone interface web selling tool league of legend",
     tags: ["HTML5", "CSS3", "Javascript(ES6+)"],
     imageUrl: project2,
+    gitLink: 'https://github.com/Huynhca2k2/lolscript',
+    reviewLink: 'https://huynhca2k2.github.io/lolscript/'
   },
   {
     title: "FullStack -  Ecommer",
@@ -74,6 +78,8 @@ export const projectsData = [
       "Clone interface web ecommer and functions of sale",
     tags: ["React", "Vite", "MongoDB", "Express", "Nodejs"],
     imageUrl: project3,
+    gitLink: 'https://github.com/Huynhca2k2/tikitiki',
+    reviewLink: 'https://tikitiki-ten.vercel.app/'
   },
   {
     title: "Warehouse Management System (WMS)",
@@ -81,6 +87,8 @@ export const projectsData = [
       "It is a website used to manage and oversee daily warehouse operations, from goods entering the warehouse to leaving it.",
     tags: ["React", "Nodejs", "MongoDB", "Tailwind", "RadixUi", "Yup + React-hook-form"],
     imageUrl: project4,
+    gitLink: 'https://github.com/Huynhca2k2/fe-dashboard',
+    reviewLink: 'dashboard-demo123.vercel.app'
   },
 ] as const;
 

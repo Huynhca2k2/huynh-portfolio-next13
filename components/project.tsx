@@ -14,7 +14,9 @@ export default function Project({
     title,
     description,
     tags,
-    imageUrl
+    imageUrl,
+    gitLink,
+    reviewLink
 }: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
@@ -57,12 +59,12 @@ export default function Project({
 
                 <div className='flex flex-row flex-wrap items-center justify-between text-lg font-medium pt-4'>
                     <a className='group bg-white px-3 py-2 flex items-center gap-2 rounded-lg outline-none text-base sm:text-sm md:text-base cursor-pointer borderBlack dark:bg-white/10'
-                        href='/'
+                        href={gitLink}
                     >
                         Github <SlSocialGithub className='opacityy-60 group-hover:translate-y-1 transition'/>
                     </a>
                     <a className='group bg-white px-3 py-2 flex items-center gap-2 rounded-lg outline-none text-base sm:text-sm md:text-base cursor-pointer borderBlack dark:bg-white/10'
-                        href='/'
+                        href={reviewLink}
                     >
                         Review <SlGlobe className='opacityy-60 group-hover:translate-y-1 transition'/>
                     </a>
