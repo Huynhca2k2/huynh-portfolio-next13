@@ -88,7 +88,7 @@ export const projectsData = [
     tags: ["React", "Nodejs", "MongoDB", "Tailwind", "RadixUi"],
     imageUrl: project4,
     gitLink: 'https://github.com/Huynhca2k2/fe-dashboard',
-    reviewLink: 'dashboard-demo123.vercel.app'
+    reviewLink: 'https://dashboard-demo123.vercel.app'
   },
 ] as const;
 
