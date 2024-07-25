@@ -1,9 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import project1 from "@/public/project1.png";
+import project2 from "@/public/project2.png";
+import project3 from "@/public/project3.png";
+import project4 from "@/public/project4.png";
 
 export const links = [
   {
@@ -54,32 +55,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Clone CHplay",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Clone interface web chplay",
+    tags: ["React", "Vite", "Tailwind",],
+    imageUrl: project1,
   },
   {
-    title: "rmtDev",
+    title: "League of Legends script",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Clone interface web selling tool league of legend",
+    tags: ["HTML5", "CSS3", "Javascript(ES6+)"],
+    imageUrl: project2,
   },
   {
-    title: "Word Analytics",
+    title: "FullStack -  Ecommer",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Clone interface web ecommer and functions of sale",
+    tags: ["React", "Vite", "MongoDB", "Express", "Nodejs"],
+    imageUrl: project3,
   },
   {
-    title: "Word Analytics",
+    title: "Warehouse Management System (WMS)",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "It is a website used to manage and oversee daily warehouse operations, from goods entering the warehouse to leaving it.",
+    tags: ["React", "Nodejs", "MongoDB", "Tailwind", "RadixUi", "Yup + React-hook-form"],
+    imageUrl: project4,
   },
 ] as const;
 
@@ -95,12 +96,11 @@ export const skillsData = [
   "Express",
   "Tailwind CSS",
   "Material UI",
-  "Ant Design",
+  "Radix UI",
   "MongoDB",
   "MySQL",
   "Python",
   "Java",
   "Github",
   "Docker",
-  "Framer Motion",
 ] as const;
